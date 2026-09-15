@@ -99,8 +99,6 @@ therefore, the system must additionally ask whether the vehicle is an emergency 
 N). An emergency vehicle may enter regardless of its permit status, but it must be assigned to
 the appropriate zone based on the user category.
 
-6
-
 • A van assigned to Zone C consumes two parking spaces, whereas every car or bike consumes
 one space.
 The system must continuously maintain the number of occupied spaces in each zone. Before
@@ -140,8 +138,6 @@ The system asks the driver for:
 • Whether the charging station is currently available (Y/N).
 The system should make decisions according to the following rules.
 
-7
-
 • If the charging station is unavailable: if the vehicle is a hybrid, display "Charging unavailable
 – Parking only." Otherwise, display "No charging slot available." If the station is available,
 continue with the remaining checks.
@@ -180,9 +176,6 @@ The system should display:
 • Required charging percentage
 • Charging priority, peak/off-peak status
 • Charging cost, parking cost, discount,
-
-8
-
 • Final payable amount
 • Appropriate warning/message.
 
